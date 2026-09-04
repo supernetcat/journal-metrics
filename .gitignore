@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+build/
+dist/
+*.spec.log
+
+# 运行/数据产物（转录数据与个人工作数据不入公开库）
+outputs/
+data/raw/
+data/custom/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.local
+.env
