@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "journal-metrics"
+version = "0.1.0"
+description = "期刊 JCR 影响因子/分区 与 中科院分区 本地数据集 (SQLite/CSV/JSON + 查询模块)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+journal-metrics = "journal_metrics.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
